@@ -1,0 +1,11 @@
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\bin\Debug\Unit 3 Sac 1 Task 1.exe.config
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\bin\Debug\Unit 3 Sac 1 Task 1.exe
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\bin\Debug\Unit 3 Sac 1 Task 1.pdb
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\obj\Debug\Unit 3 Sac 1 Task 1.csproj.AssemblyReference.cache
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\obj\Debug\Unit 3 Sac 1 Task 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\obj\Debug\Unit_3_Sac_1_Task_1.Form1.resources
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\obj\Debug\Unit_3_Sac_1_Task_1.Properties.Resources.resources
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\obj\Debug\Unit 3 Sac 1 Task 1.csproj.GenerateResource.cache
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\obj\Debug\Unit 3 Sac 1 Task 1.csproj.CoreCompileInputs.cache
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\obj\Debug\Unit 3 Sac 1 Task 1.exe
+C:\Users\chlor\source\repos\Unit 3 Sac 1 Task 1\Unit 3 Sac 1 Task 1\obj\Debug\Unit 3 Sac 1 Task 1.pdb
