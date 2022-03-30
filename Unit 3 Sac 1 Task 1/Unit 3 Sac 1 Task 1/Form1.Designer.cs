@@ -119,11 +119,6 @@
             // 
             // numAge
             // 
-            this.numAge.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
             this.numAge.Location = new System.Drawing.Point(33, 54);
             this.numAge.Maximum = new decimal(new int[] {
             50,

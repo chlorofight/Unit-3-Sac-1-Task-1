@@ -25,25 +25,42 @@ namespace Unit_3_Sac_1_Task_1
         //Function: Reads how old the book and what the price was
         //Input: float, Age
         //Output: float, fTotal, fWorth
-
-        public void fnCalc(float fage, float fPrice)
+        //OLD CODE
+        /*
+        public void fnCalc(float fAge, float fPrice)
         {
             float fWorth = fPrice * .2f * fage;
             if (fWorth >= fPrice)
             {
-                lblWorth.Text = "This textboox is worthless";
+                //old code
+                //lblWorth.Text = "This textboox is worthless";
                 return;
             }
             //age is no greater than or = to 5
             else
-            {
-                fPrice = fPrice - fWorth;
-                lblWorth.Text = $"The textbook is worth ${fPrice.ToString()}";
+            { 
+                //old code
+                //fPrice = fPrice - fWorth;
+                //lblWorth.Text = $"The textbook is worth ${fPrice.ToString()}";
                 //update the total worth
-                fTotal += fPrice;
-                lblTotal.Text = $"The collection is worth ${fTotal.ToString()}";
+                //fTotal += fPrice;
+                //lblTotal.Text = $"The collection is worth ${fTotal.ToString()}";
 
             }
+        }
+        */
+
+        //Function: Calculate the worth of the textbook
+        //Input: float Purchedval, float Age, The purchased value and age
+        //OutPut: the value of the textbook
+        private float Calc(float purchedVal, float Age)
+        {
+            float depreciation = purchedVal * .2f * Age;
+            if(depreciation > purchedVal)
+            {
+                return 0f;
+            }
+            return purchedVal - depreciation;
         }
 
         private void btnCalc_Click(object sender, EventArgs e)
@@ -51,9 +68,19 @@ namespace Unit_3_Sac_1_Task_1
             //make sure that the value is not negative
             if (numAge.Value > 0 & numPrice.Value > 0)
             {
-                //number updown box value converted to flaot
-                //call function
-                fnCalc((float)numAge.Value, (float)numPrice.Value);
+                //set the values to be floats
+                //call the function to a var
+                float Val = Calc((float)numPrice.Value, (float)numAge.Value);
+                if (Val == 0)
+                {
+                    lblWorth.Text = "This textbook is worthless";
+                }
+                else
+                {
+                    lblWorth.Text = $"This textbook is worth ${Val}";
+                    fTotal += Val;
+                    lblTotal.Text = $"The Collection is worth ${fTotal}";
+                }
             }
 
             else
@@ -71,6 +98,7 @@ namespace Unit_3_Sac_1_Task_1
             numAge.Value = 0;
             lblWorth.Text = "Quote Ended";
             lblTotal.Text = "Quote Ended";
+            fTotal = 0;
         }
     }
 }
